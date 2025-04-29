@@ -1,3 +1,28 @@
 Planning for Tic Tac Toe game
 
 We are going to write psuedocode here.
+1. Draw the lines 
+console log the board 
+    use an array to represent the board 
+    our array would have nine null values to start
+2. X's goes first
+Use a "Turn Variable to store whose turn it is 
+Player 1 is X Player 2 is O
+3. X chooses a spot
+    replace null value with turn variable
+Change the turn 
+    Update turn variable to be opposite of what it currently is
+
+4. O chooses a spot
+    Make sure spot is available
+    If spot has a Null  value it is available
+    Then replace null value with turn variable
+5. Repeat until the game ends 
+    loop
+6. Check if someone has 3 in a row then they are the winner 
+    This should take place at the end of each turn 
+7. it is a tie  If there are no more spaces then 
+    This should take place at the end of each turn 
+    no more null values or no conditions were true 
+8. Repeat all steps to play again 
+
