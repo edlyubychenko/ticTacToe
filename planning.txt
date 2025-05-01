@@ -26,3 +26,11 @@ Change the turn
     no more null values or no conditions were true 
 8. Repeat all steps to play again 
 
+
+MVC Paradigm/ Separation of Concerns
+The model represents our data that is meant to represent the state of our game or application
+The view - The portion of our code that displays something to the user. 
+The controller - represents the logic of the application. The controller uses the data from the Model and gives it to the view.
+
+
+
